@@ -9,6 +9,9 @@ options.add_argument('--no-sandbox')
 driver = webdriver.Chrome(service=service, options=options)
 
 # URL of your webpage
+# URL = 'https://scifigurmeet.github.io/magicwebsite/?' + ''.join(random.choices(string.ascii_uppercase + string.digits, k=1000000))
+# print(URL) 
+# this is the way to throw an error on website
 URL = 'https://ishanibhatia.github.io/magicwebsite/'
 
 try:
